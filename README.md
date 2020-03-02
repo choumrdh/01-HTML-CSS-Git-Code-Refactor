@@ -1,2 +1,2 @@
 # 01-HTML-CSS-Git-Code-Refactor
-Frist Homework
+First Homework
