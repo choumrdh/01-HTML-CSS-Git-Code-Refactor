@@ -1,14 +1,14 @@
 * {
     box-sizing: border-box;
-    /* padding: 0; */
-    margin: 0;
+    margin: 0; 
+    /* padding: 0; removed */
 }
 
 body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,15 +16,15 @@ body {
     
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
-.header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,15 +32,13 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
+/* removed header div ul {list-style-type: none; does seem like it does anything for the webpage.} */
 
-.header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* removed class in html so removed . for header */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -122,13 +120,12 @@ p {
 }
 /* .search-engine-optimization, online-reputation-management,.social-media-marketing and change to information-section*/
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
